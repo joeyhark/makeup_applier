@@ -7,10 +7,6 @@ from google.auth.transport.requests import Request
 import requests
 import re
 
-# Remaining issues: Filename display output incorrect
-# Remaining issues: File size display output has no unit and may be unnecessary
-# Delete token.pickle to use with your google account - request access from joeyhark@gmail.com
-
 ap = argparse.ArgumentParser()
 ap.add_argument('-f', '--filename', required=False,
                 help='[Str] File name of image to import',

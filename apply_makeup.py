@@ -9,11 +9,6 @@ from colordict import ColorDict
 from PIL import Image
 import argparse
 
-# Remaining issues: cv.imshow() in get_mask, self.show=True does not display mask on second iteration
-# Remaining issues: poor method for fitting nose ring to correct location on other images
-
-# Delete token.pickle to use with your google account - request access from joeyhark@gmail.com
-
 ap = argparse.ArgumentParser()
 ap.add_argument('-f', '--filename', required=False,
                 help='[Str] File name of image to import',
