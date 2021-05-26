@@ -1,6 +1,6 @@
 # Makeup Applier
 
-**NOTE:** Requires Google API client permissions for use. Available upon request
+**NOTE:** Requires Google API client permissions for use. Available upon request.
 
 The goal of this project is to automatically apply makeup to an image of a face. The image is first obtained from Google Drive using the Google API client. This task was solved through direct use of a [tutorial](https://www.thepythoncode.com/article/using-google-drive--api-in-python). Once the image is present in the working directory, the makeup applier optionally applies lipstick, blush, eyeliner, and a nose ring to the face depending on user input.
 
